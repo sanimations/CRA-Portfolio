@@ -1,25 +1,17 @@
-/* App.css */
-body {
+.App {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: white; /* Background color for the entire page */
-}
-
-.App {
+  background-color: #1e1e1e; /* Dark background color for the entire page */
+  color: #ffffff; /* White text color */
   text-align: center;
 }
 
 header {
-  background-color: lightblue; /* Background color for header */
+  background-color: #333333; /* Dark gray background color for header */
   padding: 20px;
 }
 
-h1 {
-  margin: 0;
-}
-
 main {
-  background-color: white; /* Background color for main content */
   padding: 20px;
 }
 
@@ -36,7 +28,7 @@ main {
 
 .project {
   flex: 0 1 calc(33.333% - 20px); /* Each project takes up 1/3 of the container minus the gap */
-  border: 1px solid #ccc;
+
   padding: 20px;
 }
 
@@ -46,11 +38,17 @@ main {
 }
 
 #other-work {
-  background-color: lightblue; /* Background color for other work section */
   padding: 20px;
 }
 
 footer {
-  background-color: lightblue; /* Background color for footer */
   padding: 20px;
+}
+
+/* h3{
+  color: #00FFFF;
+} */
+
+p{
+  color: #bbbaba;
 }
