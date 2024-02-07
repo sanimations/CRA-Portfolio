@@ -7,18 +7,31 @@ function App() {
     <div className="App">
       {/* Header */}
       <header>
-        <h1 style={{ color: '#00FFFF'}} >Samuel Martucci</h1>
+        <h1 style={{ color: "#00FFFF" }}>Samuel Martucci</h1>
       </header>
 
       {/* Main Content */}
       <main>
+        {/* Something else */}
+        <section id="education">
+          <h2 style={{ color: "#FF69B4" }}>Education</h2>
+          <p>
+            Completed CareerFoundry's Intro To Frontend course as well as the
+            Full-Stack Immersion course.<br></br>
+            Recieved a Degree in Film/Electronic Arts at Bard College.<br></br>I
+            have now learned and used HTML, CSS, JavaScript, React.js, React
+            Native, and Angular.<br></br>
+            Blender, 3dsMax, Adobe Premiere Pro, Adobe After Effects, Adobe
+            Audtion, Adobe Animate
+          </p>
+        </section>
+
         <section id="projects">
-          <h2 style={{ color: '#FF69B4'}}>Projects</h2>
+          <h2 style={{ color: "#FF69B4" }}>Demo Projects</h2>
 
           <div className="projects-container">
-      
             <div className="project">
-              <h3 style={{ color: '#FFA500'}}>MyFlix React</h3>
+              <h3 style={{ color: "#FFA500" }}>MyFlix React</h3>
               <p></p>
               <a
                 href="https://github.com/sanimations/myFlix-client"
@@ -38,7 +51,7 @@ function App() {
             </div>
 
             <div className="project">
-              <h3 style={{ color: '#FFA500'}}>MyFlix Angular</h3>
+              <h3 style={{ color: "#FFA500" }}>MyFlix Angular</h3>
               <p></p>
               <a
                 href="https://github.com/sanimations/myFlixAngularClient"
@@ -52,13 +65,11 @@ function App() {
                 />
               </a>
               <p></p>
-              <p>
-                My queer movie database created with Angular.
-              </p>
+              <p>My queer movie database created with Angular.</p>
             </div>
 
             <div className="project">
-              <h3 style={{ color: '#FFA500'}}>WalkinTalkin</h3>
+              <h3 style={{ color: "#FFA500" }}>WalkinTalkin</h3>
               <p></p>
               <a
                 href="https://github.com/sanimations/WalkinTalkin"
@@ -73,12 +84,13 @@ function App() {
               </a>
               <p></p>
               <p>
-                This is a chat app I created with React Native!  A mobile native app with chat, image, and location sharing.
+                This is a chat app I created with React Native! A mobile native
+                app with chat, image, and location sharing.
               </p>
             </div>
 
             <div className="project">
-              <h3 style={{ color: '#FFA500'}} >Meet App</h3>
+              <h3 style={{ color: "#FFA500" }}>Meet App</h3>
               <p></p>
               <a
                 href="https://sanimations.github.io/meet/"
@@ -98,7 +110,7 @@ function App() {
             </div>
 
             <div className="project">
-              <h3 style={{ color: '#FFA500'}} >HTML Portfolio</h3>
+              <h3 style={{ color: "#FFA500" }}>HTML Portfolio</h3>
               <p></p>
               <a
                 href="https://sanimations.github.io/portfolio-website/index.html"
@@ -120,7 +132,7 @@ function App() {
             </div>
 
             <div className="project">
-              <h3 style={{ color: '#FFA500'}}>PokeDex</h3>
+              <h3 style={{ color: "#FFA500" }}>PokeDex</h3>
               <p></p>
               <a
                 href="https://sanimations.github.io/pokedex-js/"
@@ -142,17 +154,60 @@ function App() {
 
       {/* Other Work Section */}
       <section id="other-work">
-        <h2 style={{ color: '#FF69B4'}} >Other Work</h2>
+        <h2 style={{ color: "#FF69B4" }}>Other Work</h2>
         <p>
-          I worked as a Freelance Animator for Edgeworx Studios, most notably on the first season of the Hulu Show called "Wild Crime".
-          <br></br>I also worked on a music video for the band NephewCube on Spotify.  Here is the <a href="https://www.youtube.com/watch?v=oIYrEnYwzGk"
-                target="_blank" rel="noopener noreferrer">link</a>
+          I worked as a Freelance Animator for Edgeworx Studios, most notably on
+          the first season of the Hulu Show called "Wild Crime".
+          <br></br>I also worked on a music video for the band NephewCube on
+          Spotify. Here is the{" "}
+          <a
+            href="https://www.youtube.com/watch?v=oIYrEnYwzGk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            link
+          </a>
+          {/* Imbed the links for my youtube and possibly an IMDB page or something */}
+        </p>
+      </section>
+
+      {/* About Me */}
+      <section id="about-me">
+        <h2 style={{ color: "#FF69B4" }}>About Me</h2>
+        <p>
+          New Jersey born and raised. Avid gamer. Discord Server Configuration
+          Management. Easy to teach, great communicator, and responsible worker.
         </p>
       </section>
 
       {/* Footer */}
       <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <p>
+          &copy; 2024 Sam Martucci. All rights reserved. <br></br>
+          <a
+            href="https://www.linkedin.com/in/samuel-martucci-57710317b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          > 
+            LinkedIn
+          </a>
+          <br></br>
+          <a
+            href="https://github.com/sanimations"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <br></br>
+          <a
+            href="https://www.youtube.com/channel/UCfKFgsb5dS48GaJAndlqRcA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Youtube
+          </a>
+        </p>
       </footer>
     </div>
   );

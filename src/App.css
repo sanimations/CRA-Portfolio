@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&family=Workbench&display=swap');
+
+h1, h2{
+  font-family: 'Workbench', sans-serif;
+}
+
 .App {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -45,10 +51,11 @@ footer {
   padding: 20px;
 }
 
-/* h3{
-  color: #00FFFF;
-} */
+h3{
+  font-family: 'Roboto Slab', serif;
+}
 
 p{
   color: #bbbaba;
+  font-family: 'Roboto Slab', serif;
 }
