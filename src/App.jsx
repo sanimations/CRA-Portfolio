@@ -126,7 +126,7 @@ function App() {
               <h3 style={{ color: " #AA66CD " }}>MyFlix Angular</h3>
               <p></p>
               <a
-                href="https://github.com/sanimations/myFlixAngularClient"
+                href="https://sanimations.github.io/myFlixAngularClient/welcome"
                 target="_blank"
                 rel="noopener noreferrer"
               >
