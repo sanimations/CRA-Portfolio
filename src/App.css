@@ -6,14 +6,13 @@ h1, h2{
 
 .App {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #1e1e1e; /* Dark background color for the entire page */
+  background-color: #111111 ; /* Dark background color for the entire page */
   color: #ffffff; /* White text color */
   text-align: center;
 }
 
 header {
-  background-color: #333333; /* Dark gray background color for header */
+  background-color: #2F4F4F; /* Dark gray background color for header */
   padding: 20px;
 }
 
@@ -40,7 +39,7 @@ main {
 
 .project img{
   max-width: 100%; /* Set the maximum width to 100% of the parent container */
-  max-height: 200px; /* Set the maximum height to 200 pixels */
+  max-height: 400px; /* Set the maximum height to 200 pixels */
 }
 
 #other-work {
@@ -56,6 +55,27 @@ h3{
 }
 
 p{
-  color: #bbbaba;
+  color: CCCCCC;
   font-family: 'Roboto Slab', serif;
+}
+
+.img-effects {
+  transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+}
+
+.img-effects:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.468); /* Change the shadow color to white with reduced opacity */
+}
+
+.icon-container{
+  flex: display;
+  justify-content: space-between;
+
+}
+
+.icon-container svg{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  fill: white;
 }
