@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sanimations.github.io/CRA-Portfolio/",
   "main": "index.jsx",
   "dependencies": {
     "bootstrap": "^5.3.2",
