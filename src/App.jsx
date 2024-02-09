@@ -1,9 +1,9 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import "./App.css";
-import { ReactComponent as LinkedInIcon } from './assets/linkedin.svg';
-import { ReactComponent as GitHubIcon } from './assets/github.svg';
-import { ReactComponent as YouTubeIcon } from './assets/youtube.svg';
+import { ReactComponent as LinkedInIcon } from "./assets/linkedin.svg";
+import { ReactComponent as GitHubIcon } from "./assets/github.svg";
+import { ReactComponent as YouTubeIcon } from "./assets/youtube.svg";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
 
         <section id="projects">
           <h2 style={{ color: "#66CDAA" }}>Demo Projects</h2>
-          
+
           {/* Project 1 */}
           <div className="projects-container">
             <div className="project">
@@ -198,29 +198,30 @@ function App() {
       {/* Footer */}
       <footer>
         <p>
-          &copy; 2024 Sam Martucci. All rights reserved. <br></br><br></br>
+          &copy; 2024 Sam Martucci. All rights reserved. <br></br>
+          <br></br>
           <div className="icon-container">
-          <a
-            href="https://www.linkedin.com/in/samuel-martucci-57710317b/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <LinkedInIcon />
-          </a>
-          <a
-            href="https://github.com/sanimations"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <GitHubIcon />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCfKFgsb5dS48GaJAndlqRcA"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <YouTubeIcon />
-          </a>
+            <a
+              href="https://www.linkedin.com/in/samuel-martucci-57710317b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedInIcon />
+            </a>
+            <a
+              href="https://github.com/sanimations"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHubIcon />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCfKFgsb5dS48GaJAndlqRcA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <YouTubeIcon />
+            </a>
           </div>
         </p>
       </footer>
