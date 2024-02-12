@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CRA-Portfolio/static/css/main.b5438f49.css",
+    "main.js": "/CRA-Portfolio/static/js/main.9cd1be7d.js",
+    "static/media/myFlix-React.png": "/CRA-Portfolio/static/media/myFlix-React.facb86ca6692174bd233.png",
+    "static/media/myFlix-Angular.png": "/CRA-Portfolio/static/media/myFlix-Angular.dcae1e05e4e913836764.png",
+    "static/media/portfolio-html.png": "/CRA-Portfolio/static/media/portfolio-html.edd5944c966c3535726f.png",
+    "static/media/chatApp-reactNative.png": "/CRA-Portfolio/static/media/chatApp-reactNative.4d01e815f86c15c4f11c.png",
+    "static/media/pokedex-js.png": "/CRA-Portfolio/static/media/pokedex-js.c3b699cda7c51bd3dfdb.png",
+    "static/media/MeetApp-js.png": "/CRA-Portfolio/static/media/MeetApp-js.c0fd880fc4bd4ff203f7.png",
+    "static/media/github.svg": "/CRA-Portfolio/static/media/github.3b21c250a99986431958daaa9246a45a.svg",
+    "index.html": "/CRA-Portfolio/index.html",
+    "static/media/linkedin.svg": "/CRA-Portfolio/static/media/linkedin.98956d298e14a6384fdb39c42269f2f2.svg",
+    "static/media/youtube.svg": "/CRA-Portfolio/static/media/youtube.7f4cdfacde8ccbd90dc0928aff24af16.svg",
+    "main.b5438f49.css.map": "/CRA-Portfolio/static/css/main.b5438f49.css.map",
+    "main.9cd1be7d.js.map": "/CRA-Portfolio/static/js/main.9cd1be7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5438f49.css",
+    "static/js/main.9cd1be7d.js"
+  ]
+}
