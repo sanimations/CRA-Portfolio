@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       {/* Header */}
       <header>
-        <h1 style={{ color: "#F0E68C" }}>Sam Martucci</h1>
+        <h1 style={{ color: "#F0E68C" }}>Samuel Martucci</h1>
       </header>
 
       {/* Main Content */}
@@ -51,7 +51,7 @@ function App() {
               </a>
               <p></p>
               <p>
-                Created a Meet App to find interesting events around the world.
+                Created a Meet App to find interesting events around the world. 
               </p>
             </div>
 
@@ -81,7 +81,7 @@ function App() {
 
             {/* Project 3 */}
             <div className="project">
-              <h3 style={{ color: " #AA66CD " }}>PokeDex</h3>
+              <h3 style={{ color: " #AA66CD " }}>Pokédex</h3>
               <p></p>
               <a
                 href="https://sanimations.github.io/pokedex-js/"
