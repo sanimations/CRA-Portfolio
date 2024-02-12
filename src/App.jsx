@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       {/* Header */}
       <header>
-        <h1 style={{ color: "#F0E68C" }}>Samuel Martucci</h1>
+        <h1 style={{ color: "#F0E68C" }}>Sam Martucci</h1>
       </header>
 
       {/* Main Content */}
