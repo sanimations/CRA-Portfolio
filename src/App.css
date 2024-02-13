@@ -79,3 +79,32 @@ p{
   margin-right: 5px;
   fill: white;
 }
+
+#education {
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.education-p { 
+  font-size: 120%; 
+}
+
+.video-container {
+  overflow: hidden;
+  padding-bottom: 20%;
+  position: relative;
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Move the iframe back by 50% of its own width and height */
+  height: 100%;
+  width: 50%;
+}
+
+#about-me{
+  margin: 2% 25% 0;
+}
