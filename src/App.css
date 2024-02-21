@@ -113,5 +113,34 @@ p{
 }
 
 #about-me{
-  margin: 2% 25% 0;
+  margin: 2% 5% 0;
+}
+
+#education {
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.education-section {
+  flex: 0 1 calc(33.33% - 20px);
+  background-color: #2F4F4F;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+.education-section h3 {
+  color: #AA66CD;
+  font-family: 'Roboto Slab', serif;
+}
+
+.education-section p {
+  color: #CCCCCC;
+  font-family: 'Roboto Slab', serif;
 }

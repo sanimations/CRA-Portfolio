@@ -18,25 +18,55 @@ function App() {
         {/* Education */}
         <section id="education">
           <h2 style={{ color: "#66CDAA" }}>Education</h2>
-          <p className="education-p">
-            I have recieved a Bachelor's Degree in Film/Electronic Arts at Bard
-            College.<br></br>I completed CareerFoundry's Intro To Frontend
-            course as well as the Full-Stack Immersion course.{" "}
-            <a
-              href="https://www.linkedin.com/posts/samuel-martucci-57710317b_im-happy-to-share-that-ive-completed-the-activity-7090117281665441792-Dsz2?utm_source=share&utm_medium=member_desktop"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Intro Certificate
-            </a>
-            <br></br>
-            Skills I learned at Bard College: Blender, 3dsMax, Adobe Premiere
-            Pro, Adobe After Effects, Adobe Audition, Adobe Animate, Adobe
-            Photoshop<br></br>
-            Skills I learned at CareerFoundry: HTML, CSS, JavaScript, React.js,
-            React Native, SQL, noSQL, Mongo, MongoDB, MongoDB Atlas,
-            accessibility (ARIA), React Bootstrap, JQuery and Angular.
-          </p>
+          <div class="education-container">
+            <div class="education-section">
+              <h3 style={{ color: "#AA66CD" }}>
+                Skills Learned at Bard College
+              </h3>
+              <p>
+                Blender, 3dsMax, Adobe Premiere Pro, Adobe After Effects, Adobe
+                Audition, Adobe Animate, Adobe Photoshop
+              </p>
+            </div>
+
+            <div class="education-section">
+              <h3 style={{ color: "#AA66CD" }}>
+                Bachelor's Degree to Intro Certificate
+              </h3>
+              <p>
+                I have received a <strong>Bachelor's Degree</strong> in Film/Electronic Arts at
+                Bard College.  I completed CareerFoundry's Intro To
+                Frontend course as well as the <strong>Full-Stack Immersion</strong> course.
+                <br></br>
+                <a
+                  href="https://www.linkedin.com/posts/samuel-martucci-57710317b_im-happy-to-share-that-ive-completed-the-activity-7165461644385468416--k0o?utm_source=share&utm_medium=member_desktop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Full-Stack Immersion Certificate
+                </a>
+                <br></br>
+                <a
+                  href="https://www.linkedin.com/posts/samuel-martucci-57710317b_im-happy-to-share-that-ive-completed-the-activity-7090117281665441792-Dsz2?utm_source=share&utm_medium=member_desktop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Intro Certificate
+                </a>
+              </p>
+            </div>
+
+            <div class="education-section">
+              <h3 style={{ color: "#AA66CD" }}>
+                Skills Learned at CareerFoundry
+              </h3>
+              <p>
+                HTML, CSS, JavaScript, React.js, React Native, SQL, noSQL,
+                Mongo, MongoDB, MongoDB Atlas, accessibility (ARIA), React
+                Bootstrap, JQuery and Angular.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section id="projects">
@@ -48,7 +78,7 @@ function App() {
               <h3 style={{ color: "#AA66CD" }}>MyFlix React</h3>
               <p></p>
               <a
-                href="https://github.com/sanimations/myFlix-client"
+                href="https://qfdb.netlify.app/login"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,7 +95,9 @@ function App() {
                 based on its existing server-side code. The server-side code
                 came from a REST API and database I had created. In this project
                 I used the MERN tech stack and I learned how to use
-                Authentication with the accompanying API.
+                Authentication with the accompanying API. For testing, you can
+                use the login credentials 'Username' and 'Password' to access
+                the application.
                 <br></br>
                 <a
                   href="https://qfdb.netlify.app/login"
@@ -312,8 +344,8 @@ function App() {
             "Wild Crime"
           </a>
           .<br></br>
-          <br></br>I also worked on a music video for the band NephewCube on
-          Spotify.
+          <br></br>I also worked on a music video for the band NephewCube on Youtube,
+          Spotify, and Apple Music.
         </p>
         <div className="video-container">
           <iframe
