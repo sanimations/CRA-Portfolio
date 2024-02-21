@@ -128,11 +128,17 @@ p{
 }
 
 .education-section {
-  flex: 0 1 calc(33.33% - 20px);
+  flex: 0 1 calc(100% - 20px);
   background-color: #2F4F4F;
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 7px;
+  border-radius: 10px;
+}
+
+@media (min-width: 810px) {
+  .education-section {
+    flex: 0 1 calc(33.3% - 20px); /* Take up 48% width on larger screens */
+  }
 }
 
 .education-section h3 {
