@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CRA-Portfolio/static/css/main.6453f7a8.css",
+    "main.css": "/CRA-Portfolio/static/css/main.4bed09d7.css",
     "main.js": "/CRA-Portfolio/static/js/main.e0603f93.js",
     "static/media/myFlix-React.png": "/CRA-Portfolio/static/media/myFlix-React.facb86ca6692174bd233.png",
     "static/media/myFlix-Angular.png": "/CRA-Portfolio/static/media/myFlix-Angular.dcae1e05e4e913836764.png",
@@ -12,11 +12,11 @@
     "index.html": "/CRA-Portfolio/index.html",
     "static/media/linkedin.svg": "/CRA-Portfolio/static/media/linkedin.98956d298e14a6384fdb39c42269f2f2.svg",
     "static/media/youtube.svg": "/CRA-Portfolio/static/media/youtube.7f4cdfacde8ccbd90dc0928aff24af16.svg",
-    "main.6453f7a8.css.map": "/CRA-Portfolio/static/css/main.6453f7a8.css.map",
+    "main.4bed09d7.css.map": "/CRA-Portfolio/static/css/main.4bed09d7.css.map",
     "main.e0603f93.js.map": "/CRA-Portfolio/static/js/main.e0603f93.js.map"
   },
   "entrypoints": [
-    "static/css/main.6453f7a8.css",
+    "static/css/main.4bed09d7.css",
     "static/js/main.e0603f93.js"
   ]
 }
