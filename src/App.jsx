@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import "./App.css";
+import ContactUs from "./components/contact-form";
 import { ReactComponent as LinkedInIcon } from "./assets/linkedin.svg";
 import { ReactComponent as GitHubIcon } from "./assets/github.svg";
 import { ReactComponent as YouTubeIcon } from "./assets/youtube.svg";
@@ -15,12 +16,27 @@ function App() {
 
       {/* Main Content */}
       <main>
+        {/* About Me */}
+        <section id="about-me">
+          <p className="about-me-p">
+            Hey there! I'm Sam Martucci, a native of New Jersey with a passion
+            for technology and gaming. With a background in Film/Electronic Arts
+            and a knack for server management, I've honed my skills in both
+            creative and technical realms. When I'm not diving into code or
+            managing my Discord server, you'll often find me immersed in the
+            latest gaming adventures. As a natural communicator and eager
+            learner, I thrive on sharing knowledge and collaborating on
+            projects. Let's connect and explore the exciting possibilities
+            together!
+          </p>
+        </section>
+
         {/* Education */}
         <section id="education">
           <h2 style={{ color: "#66CDAA" }}>Education</h2>
-          <div class="education-container">
-            <div class="education-section">
-              <h3 style={{ color: "#AA66CD" }}>
+          <div className="education-container">
+            <div className="education-section">
+              <h3 style={{ color: "#c98fe6" }}>
                 Skills Learned at Bard College
               </h3>
               <p>
@@ -29,35 +45,35 @@ function App() {
               </p>
             </div>
 
-            <div class="education-section">
-              <h3 style={{ color: "#AA66CD" }}>
+            <div className="education-section">
+              <h3 style={{ color: "#c98fe6" }}>
                 Bachelor's Degree to Intro Certificate
               </h3>
               <p>
-                I have received a <strong>Bachelor's Degree</strong> in Film/Electronic Arts at
-                Bard College.  I completed CareerFoundry's Intro To
-                Frontend course as well as the <strong>Full-Stack Immersion</strong> course.
-                <br></br>
-                <a
-                  href="https://www.linkedin.com/posts/samuel-martucci-57710317b_im-happy-to-share-that-ive-completed-the-activity-7165461644385468416--k0o?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Full-Stack Immersion Certificate
-                </a>
-                <br></br>
-                <a
-                  href="https://www.linkedin.com/posts/samuel-martucci-57710317b_im-happy-to-share-that-ive-completed-the-activity-7090117281665441792-Dsz2?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Intro Certificate
-                </a>
+                Received a <strong>Bachelor's Degree</strong> in Film/Electronic
+                Arts at Bard College <br></br> Completed CareerFoundry's Intro
+                To Frontend course and the <strong>Full-Stack Immersion</strong>{" "}
+                course.{" "}
               </p>
+              <a
+                href="https://www.linkedin.com/posts/samuel-martucci-57710317b_im-happy-to-share-that-ive-completed-the-activity-7165461644385468416--k0o?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Full-Stack Immersion Certificate
+              </a>
+              <br></br>
+              <a
+                href="https://www.linkedin.com/posts/samuel-martucci-57710317b_im-happy-to-share-that-ive-completed-the-activity-7090117281665441792-Dsz2?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Intro Certificate
+              </a>
             </div>
 
-            <div class="education-section">
-              <h3 style={{ color: "#AA66CD" }}>
+            <div className="education-section">
+              <h3 style={{ color: "#c98fe6" }}>
                 Skills Learned at CareerFoundry
               </h3>
               <p>
@@ -75,7 +91,7 @@ function App() {
           {/* Project 1 */}
           <div className="projects-container">
             <div className="project">
-              <h3 style={{ color: "#AA66CD" }}>MyFlix React</h3>
+              <h3 style={{ color: "#c98fe6" }}>MyFlix React</h3>
               <p></p>
               <a
                 href="https://qfdb.netlify.app/login"
@@ -120,7 +136,7 @@ function App() {
 
             {/* Project 2 */}
             <div className="project">
-              <h3 style={{ color: "#AA66CD" }}>HTML Portfolio</h3>
+              <h3 style={{ color: "#c98fe6" }}>HTML Portfolio</h3>
               <p></p>
               <a
                 href="https://sanimations.github.io/portfolio-website/index.html"
@@ -162,7 +178,7 @@ function App() {
 
             {/* Project 3 */}
             <div className="project">
-              <h3 style={{ color: " #AA66CD " }}>Pokédex</h3>
+              <h3 style={{ color: " #c98fe6 " }}>Pokédex</h3>
               <p></p>
               <a
                 href="https://sanimations.github.io/pokedex-js/"
@@ -205,7 +221,7 @@ function App() {
 
             {/* Project 4 */}
             <div className="project">
-              <h3 style={{ color: " #AA66CD " }}>Meet App</h3>
+              <h3 style={{ color: " #c98fe6 " }}>Meet App</h3>
               <p></p>
               <a
                 href="https://sanimations.github.io/meet/"
@@ -248,7 +264,7 @@ function App() {
 
             {/* Project 5 */}
             <div className="project">
-              <h3 style={{ color: " #AA66CD " }}>MyFlix Angular</h3>
+              <h3 style={{ color: " #c98fe6 " }}>MyFlix Angular</h3>
               <p></p>
               <a
                 href="https://sanimations.github.io/myFlixAngularClient/welcome"
@@ -290,7 +306,7 @@ function App() {
 
             {/* Project 6 */}
             <div className="project">
-              <h3 style={{ color: " #AA66CD " }}>WalkinTalkin</h3>
+              <h3 style={{ color: " #c98fe6 " }}>WalkinTalkin</h3>
               <p></p>
               <a
                 href="https://github.com/sanimations/WalkinTalkin"
@@ -343,9 +359,8 @@ function App() {
           >
             "Wild Crime"
           </a>
-          .<br></br>
-          <br></br>I also worked on a music video for the band NephewCube on Youtube,
-          Spotify, and Apple Music.
+          .<br></br>I also worked on a music video for the band NephewCube on
+          Youtube, Spotify, and Apple Music.
         </p>
         <div className="video-container">
           <iframe
@@ -353,26 +368,17 @@ function App() {
             height="315"
             src="https://www.youtube.com/embed/oIYrEnYwzGk"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </section>
 
-      {/* About Me */}
-      <section id="about-me">
-        <h2 style={{ color: "#66CDAA" }}>About Me</h2>
-        <p>
-          Hey there! I'm Sam Martucci, a native of New Jersey with a passion for
-          technology and gaming. With a background in Film/Electronic Arts and a
-          knack for server management, I've honed my skills in both creative and
-          technical realms. When I'm not diving into code or managing my Discord
-          server, you'll often find me immersed in the latest gaming adventures.
-          As a natural communicator and eager learner, I thrive on sharing
-          knowledge and collaborating on projects. Let's connect and explore the
-          exciting possibilities together!
-        </p>
+      <section id="contact-me">
+        <h2 style={{ color: "#66CDAA" }}>Contact Me</h2>
+        <div>
+          <ContactUs />
+        </div>
       </section>
 
       {/* Footer */}

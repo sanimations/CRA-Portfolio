@@ -92,8 +92,10 @@ p{
   margin-bottom: 3%;
 }
 
-.education-p { 
-  font-size: 120%; 
+.about-me-p { 
+  font-size: 120%;
+  margin-bottom: 4%;
+  margin-top: -1%;
 }
 
 .video-container {
@@ -128,7 +130,7 @@ p{
 }
 
 .education-section {
-  flex: 0 1 calc(100% - 20px);
+  flex: 0 1 calc(100%);
   background-color: #2F4F4F;
   padding: 20px;
   margin-bottom: 20px;
@@ -150,3 +152,4 @@ p{
   color: #CCCCCC;
   font-family: 'Roboto Slab', serif;
 }
+
